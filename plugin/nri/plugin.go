@@ -18,12 +18,11 @@ package main
 
 import (
 	"github.com/containerd/containerd/pkg/nri"
-	"github.com/containerd/plugin"
-	"github.com/containerd/plugin/registry"
+	"github.com/containerd/containerd/plugin"
 )
 
 func init() {
-	registry.Register(&plugin.Registration{
+	plugin.Register(&plugin.Registration{
 		Type:   "com.github.t33m.nri.v1",
 		ID:     "customnri",
 		Config: nri.DefaultConfig(),

@@ -1,6 +1,6 @@
 module github.com/t33m/containerd-nri
 
-go 1.21.6
+go 1.21.9
 
 require (
 	github.com/AdaLogics/go-fuzz-headers v0.0.0-20230811130428-ced1acdcaa24 // indirect

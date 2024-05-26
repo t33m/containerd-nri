@@ -23,7 +23,7 @@ import (
 
 func init() {
 	plugin.Register(&plugin.Registration{
-		Type:   "com.github.t33m.nri.v1",
+		Type:   "io.containerd.nri.v1",
 		ID:     "customnri",
 		Config: nri.DefaultConfig(),
 		InitFn: initFunc,

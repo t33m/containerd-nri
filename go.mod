@@ -12,6 +12,7 @@ require (
 	github.com/containerd/btrfs/v2 v2.0.0
 	github.com/containerd/cgroups/v3 v3.0.2
 	github.com/containerd/console v1.0.3
+	github.com/containerd/containerd v1.7.16
 	github.com/containerd/continuity v0.4.2
 	github.com/containerd/fifo v1.1.0
 	github.com/containerd/go-cni v1.1.9
@@ -19,6 +20,7 @@ require (
 	github.com/containerd/imgcrypt v1.1.7
 	github.com/containerd/log v0.1.0
 	github.com/containerd/nri v0.6.1
+	github.com/containerd/plugin v0.1.0
 	github.com/containerd/ttrpc v1.2.3
 	github.com/containerd/typeurl/v2 v2.1.1
 	github.com/containerd/zfs v1.1.0
@@ -46,7 +48,7 @@ require (
 	github.com/moby/sys/symlink v0.2.0
 	github.com/moby/sys/user v0.1.0
 	github.com/opencontainers/go-digest v1.0.0
-	github.com/opencontainers/image-spec v1.1.0-rc2.0.20221005185240-3a7f492d3f1b
+	github.com/opencontainers/image-spec v1.1.0-rc5
 	github.com/opencontainers/runtime-spec v1.1.0
 	github.com/opencontainers/runtime-tools v0.9.1-0.20221107090550-2e043c6bd626
 	github.com/opencontainers/selinux v1.11.0
